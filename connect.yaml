@@ -12,7 +12,7 @@ deployAs:
     configuration:
       standardConfiguration:
         - key: CTP_PROJECT_KEY
-          description: "commercetools project key descrtiption status changed"
+          description: "commercetools project key descrtiption status changed with template"
           required: true
         - key: CTP_CLIENT_ID
           description: "commercetools client ID with manage_payments, manage_orders, view_sessions, view_api_clients, manage_checkout_payment_intents, introspect_oauth_tokens, manage_types and view_types scopes"
