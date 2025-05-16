@@ -1,0 +1,8 @@
+{
+  "name": "my-payment-connector",
+  "version": "1.0.0",
+  "builders": {
+    "paymentProvider": "1.0.0"
+  },
+  "target": "payment"
+}
