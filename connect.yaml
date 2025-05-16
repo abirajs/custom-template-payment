@@ -4,6 +4,8 @@ deployAs:
   - name: processor
     applicationType: service
     endpoint: /
+    capabilities:
+      paymentIntegration: true
     scripts:
       postDeploy: npm install && npm run connector:post-deploy
       preUndeploy: npm install && npm run connector:pre-undeploy
